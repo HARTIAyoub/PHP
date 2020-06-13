@@ -1,0 +1,16 @@
+Le but de cet atelier est de vérifier que le WAMPSERVER est opérationnel pour permettre l'exécution des scripts PHP. Pour cela, il faut respecter les consignes suivantes : 
+ 
+• Installer le package WAMP sur votre machine. 
+• Assurez-vous que le serveur WAMP est activé (le voyant doit être de couleur verte autrement régler le problème de conflit sur le port 80). 
+• Cliquer sur le voyant de WAMPSERVER pour faire apparaitre un menu, puis cliquer sur 
+« Démarrer tous les services ».  
+• Utiliser le Notepad++ pour taper vos codes et scripts. Créer un dossier nommé « TP4 » dans 
+« WWW ».  
+• Créer deux copies du fichier « WWW/TP3/index.htm » dans le dossier « WWW/TP4 ». Une copie porte le même nom « index.htm » et l'autre copie porte le nom « reponse.php ». Au moment de la sauvegarde d'un fichier php, vous devez choisir le type « php » puis donner un nom au fichier. 
+• Utiliser un navigateur Web et taper l’adresse « localhost/TP4 » pour faire vos tests. A la fin de chaque étape, enregistrer puis visualiser. 
+• Ouvrir le fichier « reponse.php » puis supprimer le titre du formulaire, le formulaire en entier (entre les balises <form> et </form>) ainsi que et le tableau interne. Ensuite, écrire dans la cellule du tableau externe le texte : « Merci d’avoir rempli le formulaire ! » en centré. 
+• On veut faire suivre (dans la même cellule) ce message par le nom de l'utilisateur ayant rempli le formulaire. Pour cela, on ajoute après ce texte le code php suivant : 
+<?php   echo $_POST['nom']; 
+?> 
+–Enregistrer, puis tester. 
+–Changer la méthode d’envoi de post à get. Refaire le test. Corriger les erreurs et voir la différence. 
