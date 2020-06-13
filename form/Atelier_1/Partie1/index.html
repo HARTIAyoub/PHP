@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Informations personnelles</title>
+</head>
+<body>
+	<h1 align="center" style="color: red;"><strong>Informations Personnelles</strong></h1>
+	<form action="reponse.php" method="post">
+		<p>
+			<label for="nom">Nom : </label>
+			<input type="text" id="nom" name="lastName">	
+		</p>
+		<p>
+			<label for="prenom">Prénom : </label>
+			<input type="text" id="prenom" name="firstName">	
+		</p>
+		<p>
+			<label for="DateDeNaissance">Date de naissance : </label>
+			<input type="text" id="DateDeNaissance" name="DayOfBirthday">	
+		</p>
+		<p>
+			<label for="NdeTele">N de téléphone: </label>
+			<input type="text" id="NdeTele" name="NofPhone">	
+		</p>
+		<p>
+			<label for="email">Email : </label>
+			<input type="text" id="email" name="Mailp[">	
+		</p>
+		<p>
+			<label for="adresse">Adresse : </label>
+			<textarea name="adr" id="adresse" ></textarea>	
+		</p>
+		<p>
+			<label>Genre : </label>
+			<input type="radio" name="Genre" id="Genre" value="m" checked="checked">
+			<label for="Genre">Masculin</label>
+
+			<input type="radio" name="Genre" id="Genre" value="f">
+			<label>Féminin</label>
+		</p>
+		<p>
+			<label>Civilité : </label>
+			<input type="radio" name="Civilité" id="Civilité" value="marié">
+			<label for="Civilité">marié</label>
+
+			<input type="radio" name="Civilité" id="Civilité" value="Célibataire">
+			<label for="Civilité">Célibataire</label>
+		</p>
+		<p>
+			<label for="groupe">Les langages maitrisées : </label>
+			<select name="groupe" id="groupe">
+				<option value="1"></option>
+				<option value="2">Arabe</option>
+				<option value="3">Français</option>
+				<option value="4">Anglais</option>
+				<option value="5">Espagnol</option>
+				<option value="6">Chinois</option>
+			</select>
+		</p>
+
+		<p>
+			<label>Centres d'intérets : </label>
+			<input type="Checkbox" name="CI" id="CI" value="Lecture" checked="checked">
+			<label for="CI">Lecture</label>
+
+			<input type="Checkbox" name="CI" id="CI" value="Dessin">
+			<label for="CI">Dessin</label>
+			<input type="Checkbox" name="CI" id="CI" value="Sport">
+			<label for="CI">Sport</label>
+
+			<input type="Checkbox" name="CI" id="CI" value="Musique">
+			<label for="CI">Musique</label>
+
+			<input type="Checkbox" name="CI" id="CI" value="Jeux">
+			<label for="CI">Jeux</label>
+		</p>
+
+		<p>
+			<input type="submit" value="Valider">
+			<input type="submit" value="Réinitialiser">
+		</p>	
+	</form>
+</body>
+</html>

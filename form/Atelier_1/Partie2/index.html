@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Informations personnelles</title>
+</head>
+<body>
+	<h1 align="center" style="color: red;"><strong>Informations Personnelles</strong></h1>
+	<table align="center" width="800px" style="border: 3px solid green;">
+		<tr>
+		    <td>
+		    	<form action="reponse.php" method="post">
+		    		<table width="100%" cellspacing="5px" >
+		    			<tr height="35px">
+		    				<td width="40%">
+		    					<label for="nom">Nom</label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="nom"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="text" id="nom" name="lastName">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="prenom">Prénom : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="prenom"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="text" id="nom" name="lastName">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="DateDeNaissance">Date de naissance : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="DateDeNaissance"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="text" id="DateDeNaissance" name="DayOfBirthday">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="NdeTele">N de téléphone: </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="NdeTele"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="text" id="NdeTele" name="NofPhone">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="email">Email : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="email"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="text" id="email" name="Mailp[">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="adresse">Adresse : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label for="adresse"> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<textarea name="adr" id="adresse" ></textarea>
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label>Genre</label>
+		    				</td>
+		    				<td width="10%">
+		    					<label> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="radio" name="Genre" id="Genre" value="m" checked="checked">
+		    					<label for="Genre">Masculin</label>
+
+		    					<input type="radio" name="Genre" id="Genre" value="f">
+		    					<label>Féminin</label>
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label>Civilité </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="radio" name="Civilité" id="Civilité" value="marié">
+		    					<label for="Civilité">marié</label>
+
+		    					<input type="radio" name="Civilité" id="Civilité" value="Célibataire">
+		    					<label for="Civilité">Célibataire</label>
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td width="40%">
+		    					<label for="groupe">Les langages maitrisées : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<select name="groupe" id="groupe">
+		    						<option value="1"></option>
+		    						<option value="2">Arabe</option>
+		    						<option value="3">Français</option>
+		    						<option value="4">Anglais</option>
+		    						<option value="5">Espagnol</option>
+		    						<option value="6">Chinois</option>
+		    					</select>
+		    				</td>
+		    			</tr>
+		    			<tr height="35px">
+		    				<td width="40%">
+		    					<label>Centres d'intérets : </label>
+		    				</td>
+		    				<td width="10%">
+		    					<label> : </label>
+		    				</td>
+		    				<td width="50%">
+		    					<input type="Checkbox" name="CI" id="CI" value="Lecture" checked="checked">
+		    					<label for="CI">Lecture</label>
+
+		    					<input type="Checkbox" name="CI" id="CI" value="Dessin">
+		    					<label for="CI">Dessin</label>
+		    					<input type="Checkbox" name="CI" id="CI" value="Sport">
+		    					<label for="CI">Sport</label>
+
+		    					<input type="Checkbox" name="CI" id="CI" value="Musique">
+		    					<label for="CI">Musique</label>
+
+		    					<input type="Checkbox" name="CI" id="CI" value="Jeux">
+		    					<label for="CI">Jeux</label>
+		    				</td>
+		    			</tr>
+		    			<tr height="35px">
+		    				<td colspan="3" align="center">
+		    					<input type="submit" value="Valider" align="center">
+		    					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    					<input type="submit" value="Réinitialiser">
+		    				</td>
+		    			</tr>
+		    		</table>	
+		    	</form>
+		    </td>
+		</tr>  
+	</table>
+</body>
+</html>
