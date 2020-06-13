@@ -1,0 +1,33 @@
+Pour réaliser cet atelier, il faut respecter les consignes suivantes : 
+  • Assurez-vous que le serveur Web est activé. 
+  • Utiliser le Notepad++ pour taper vos codes et scripts. 
+  • Créer un dossier nommé « TP3 » dans « WWW ». 
+  • Créer le fichier « index.htm » dans le dossier « WWW/TP3 ».  
+  • Utiliser un navigateur Web et taper l’adresse « localhost/TP3 » pour faire vos tests. A la fin de chaque étape, enregistrer puis visualiser. 
+ 
+Dans cet atelier, l'étudiant doit commencer par faire la 1ère partie intégralement avant d'entamer la seconde partie. 
+  
+Partie 1 : Le but de la 1ère partie serait de concevoir un formulaire permettant à l'utilisateur de saisir les informations personnelles. Pour cela, suivre les étapes données ci-dessous : 
+ 
+1.Ouvrir le fichier « index.htm » et saisir en haut le titre « Informations personnelles » en centré, gras, assez grande taille et de couleur rouge. Le reste du formulaire sera de couleur bleue marine. 
+2.Préparer un formulaire dont les données saisies seront traitées par le script « reponse.php » et la méthode d’envoi des données doit être « post ». 
+3.Dans ce formulaire, chaque information sera sur une ligne à part. Ainsi, sur chaque ligne, nous aurons le titre de l'information (par exemple Nom) suivi de deux point (:) suivi du champ de saisie.  
+4.Insérer ceci (dans le même ordre ) dans le formulaire : 
+  • Des champs textuels simples pour la saisie du Nom, Prénom, Date de naissance, N° de téléphone et Email. 
+  • Un champ textuel multi-lignes pour l’Adresse. 
+  • Deux boutons radio pour le Genre, en donnant la possibilité à l’utilisateur de cocher soit Masculin soit Féminin. La valeur Masculin est cochée par défaut. 
+  • Deux boutons radio pour la Civilité avec la possibilité de cocher soit Marié, soit Célibataire. Aucune valeur ne doit être cochée par défaut. 
+  • Une boite de sélection (liste déroulante) pour les langages maîtrisées: Arabe, Français, Anglais, Espagnol et Chinois ayant le vide comme premier élément. 
+  • Une série de cases à cocher pour les Centres d’intérêts, où l’utilisateur pourra cocher aucun ou plusieurs hobbies parmi : Lecture, Dessin, Sport, Musique, Jeux. La case Lecture est cochée par défaut. 
+  • Ajouter en bas de la page un bouton d’envoi avec la label Valider et un bouton de réinitialisation avec la label Réinitialiser.  
+ 
+ 
+Partie 2 : Le but de la 2ème partie serait d'aligner les différents éléments du formulaire conçu dans la partie 1, en utilisant un tableau externe pour afficher un cadre externe et un autre tableau interne dont chaque ligne contient un éléments du formulaire. Pour cela, suivre les étapes suivantes : 
+-Commencer par créer un premier tableau centré constitué d’une seule cellule. Le tableau doit avoir les propriétés suivantes : largeur de 800 pixels, bordure verte de 3 pixels et sans marges internes ni espacements. L’objectif est de créer une sorte de cadre externe. 
+-A l’intérieur de la cellule du tableau, on insère notre formulaire (la balise <form>) 
+-Pour aligner les éléments du formulaire, créer à l'intérieur (après la balise <form>) un autre tableau interne qui doit être sans bordure et d’une largeur de 100%. Définir un espacement entre cellules de 5 pixels. 
+-Chaque ligne du tableau est décomposée en trois cellules : 
+  • Ecrire dans la 1ère cellule qui est alignée à droite avec une largeur de 40% par rapport à la largeur de la ligne, le titre de l'information (Exemple: Nom). 
+  • Ecrire dans la 2ème cellule qui est centrée avec une largeur de 10%, le symbole « : ».  • Insérer dans la 3ème cellule, qui est alignée à gauche, le champ de saisie. 
+-Définir une hauteur de 35pixels pour chacune des lignes standards et prévoir une hauteur plus importante et adéquate pour chaque ligne particulière. 
+-Fusionner les cellules de la dernière ligne contenant le bouton d’envoi et le bouton d'initialisation du formulaire en les centrant et en les séparant par quelques caractères espaces ou blancs (5 par exemple). 
